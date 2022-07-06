@@ -1,29 +1,15 @@
 # Connect 4
-4 in a row is 
-need to be fixed. There is a feature available that when a player has only 1 possibilty to play(Like put a card or to take a card from the deck) it does it automatically.
+Connect 4 is a 2 player connection board game, in which the players choose a color and then take turns dropping colored tokens into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens. Connect for is a solved game.
 
+The colors in this game are Red and Yellow.
 
 ### Features
-- Playable over LAN or internet using LogMeIn Hamachi
-- Game ends when any player has 0 cards
-- There is setup to support 4 players 
+- 2 players game in 1 computer(playing in turns)
+- Game ends when any player has 4 in a row(horizontal, vertical, or diagonal line)
 
 ### Bugs
-- There are some bugs in the 4 players feature
+- There is a minor bug when sometimes you don't see the next player token until you move your mouse.
 
-### Upcoming Features
-- Fixing the bugs
-- Better cards spread(it will spread evenlly in 1 page)
-- Graphics update
+# Installation & Run Instractions
+Donwload the file and open it to start playing
 
-
-# Installation
-Donwload all the files in the same directory
-
-# Run
-To run the program follow the steps below
-- Open the main file when all the files you download are
-- Verify that the IP in the "Server" and "Const_params" files
-- Run the "run_server" file
-- Run the "run" file
-- Pick a nickname and start playing
